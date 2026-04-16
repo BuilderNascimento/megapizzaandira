@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { clsx } from "clsx";
@@ -56,10 +57,17 @@ export function Header() {
           onClick={() => setOpen(false)}
         >
           <span
-            className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-xl shadow-md ring-2 ring-white/80"
+            className="relative h-[62px] w-[min(11.5rem,52vw)] shrink-0 overflow-hidden rounded-xl bg-white shadow-md ring-2 ring-white/80"
             aria-hidden
           >
-            🍕
+            <Image
+              src="/logo-mega-pizza.png"
+              alt=""
+              fill
+              className="object-contain object-center p-0.5"
+              sizes="(max-width: 640px) 52vw, 184px"
+              priority
+            />
           </span>
           <span className="leading-tight">
             <span className="block text-lg font-black tracking-tight text-white">
@@ -122,7 +130,7 @@ export function Header() {
           </div>
 
           <a
-            href={whatsappUrl("Olá! Quero fazer um pedido pelo site.")}
+            href={SITE.pedidoUrl}
             target="_blank"
             rel="noopener noreferrer"
             className={clsx(
@@ -200,7 +208,7 @@ export function Header() {
             </a>
           </div>
           <a
-            href={whatsappUrl("Olá! Quero fazer um pedido pelo site.")}
+            href={SITE.pedidoUrl}
             target="_blank"
             rel="noopener noreferrer"
             className={clsx(

@@ -34,8 +34,8 @@ export default function CardapioPage() {
             Cardápio
           </h1>
           <p className="mt-6 text-base leading-relaxed text-ink/70">
-            Escolha a categoria e peça pelo WhatsApp. A mensagem já vem com o nome
-            do item.
+            Escolha a categoria e finalize o pedido na loja online, o mesmo canal
+            que a Mega Pizza já usa no balcão.
           </p>
         </div>
 

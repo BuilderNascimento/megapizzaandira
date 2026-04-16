@@ -62,6 +62,16 @@ export function Footer() {
                   Contato
                 </Link>
               </li>
+              <li>
+                <a
+                  href={SITE.pedidoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={linkClass}
+                >
+                  Pedir online
+                </a>
+              </li>
             </ul>
           </div>
           <div>

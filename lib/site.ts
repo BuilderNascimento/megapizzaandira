@@ -11,6 +11,8 @@ export const SITE = {
   instagramUrl: "https://www.instagram.com/pizzariamegapizza_andira/",
   facebookUrl: "https://www.facebook.com/search/top?q=MEGA%20PIZZA%20Andir%C3%A1",
   email: "contato@megapizzaandira.com.br",
+  /** Pedidos online (Anota AI), canal usado pela loja */
+  pedidoUrl: "https://pedido.anota.ai/loja/mega-pizza-andira?f=msa",
 } as const;
 
 export function whatsappUrl(text?: string) {

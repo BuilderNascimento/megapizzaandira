@@ -42,6 +42,14 @@ export function SectionVisit() {
             </ul>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
+                href={SITE.pedidoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-amber-400 px-8 text-base font-bold text-[#1A472A] shadow-lg ${t} hover:scale-105 hover:bg-amber-300 hover:shadow-xl`}
+              >
+                Pedir online
+              </a>
+              <a
                 href={whatsappUrl(
                   "Olá! Quero informações sobre retirada no local."
                 )}
@@ -53,7 +61,7 @@ export function SectionVisit() {
               </a>
               <a
                 href={`tel:${SITE.telefoneE164.replace(/\s/g, "")}`}
-                className={`inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-white px-8 text-base font-bold text-[#1A472A] shadow-md ${t} hover:scale-105 hover:bg-amber-400 hover:text-[#1A472A]`}
+                className={`inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-white px-8 text-base font-bold text-[#1A472A] shadow-md ${t} hover:scale-105 hover:bg-white/90`}
               >
                 Telefone
               </a>

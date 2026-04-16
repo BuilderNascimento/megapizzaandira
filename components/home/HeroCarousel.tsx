@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { clsx } from "clsx";
-import { whatsappUrl } from "@/lib/site";
+import { SITE } from "@/lib/site";
 
 const t = "t-premium";
 
@@ -28,7 +28,7 @@ const slides = [
     id: 3,
     image:
       "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=1920&q=85",
-    subtitle: "Da nossa forno à sua mesa, com pedido fácil pelo WhatsApp",
+    subtitle: "Da nossa forno à sua mesa, com pedido fácil pelo site",
   },
 ];
 
@@ -42,7 +42,7 @@ function HeroContent({
   onDotClick: (i: number) => void;
 }) {
   return (
-    <div className="flex w-full max-w-xl flex-col justify-center py-10 sm:py-12 lg:max-w-[min(36rem,92vw)] lg:py-16">
+    <div className="flex w-full max-w-xl flex-col items-center justify-center py-10 text-center sm:py-12 lg:max-w-[min(36rem,92vw)] lg:items-start lg:py-16 lg:text-left">
       <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#F4A300] drop-shadow-sm">
         Mega Pizza Andirá
       </p>
@@ -52,7 +52,7 @@ function HeroContent({
       <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/95">
         {subtitle}
       </p>
-      <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
+      <div className="mt-10 flex w-full max-w-md flex-col justify-center gap-4 sm:flex-row sm:items-center lg:max-w-none lg:justify-start">
         <Link
           href="/cardapio"
           className={clsx(
@@ -64,9 +64,7 @@ function HeroContent({
           Ver cardápio
         </Link>
         <a
-          href={whatsappUrl(
-            "Olá! Quero fazer um pedido. Vim do banner principal."
-          )}
+          href={SITE.pedidoUrl}
           target="_blank"
           rel="noopener noreferrer"
           className={clsx(
@@ -79,7 +77,7 @@ function HeroContent({
         </a>
       </div>
       <div
-        className="mt-12 flex gap-2"
+        className="mt-12 flex justify-center gap-2 lg:justify-start"
         role="tablist"
         aria-label="Slides do banner"
       >
@@ -135,7 +133,7 @@ export function HeroCarousel() {
             aria-hidden
           />
         </div>
-        <div className="relative flex flex-1 flex-col bg-[#C41E3A]">
+        <div className="relative flex flex-1 flex-col items-center bg-[#C41E3A] pb-10 pt-2 pl-[max(1.25rem,env(safe-area-inset-left))] pr-[max(1.25rem,env(safe-area-inset-right))] sm:pb-12 sm:pl-[max(2rem,env(safe-area-inset-left))] sm:pr-[max(2rem,env(safe-area-inset-right))]">
           <HeroContent
             subtitle={slide.subtitle}
             active={active}

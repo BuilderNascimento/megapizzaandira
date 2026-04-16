@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { whatsappUrl } from "@/lib/site";
+import { SITE } from "@/lib/site";
 
 export type CardapioCardProps = {
   nome: string;
@@ -21,8 +21,7 @@ export function CardapioCard({
   tamanho,
   categoria,
 }: CardapioCardProps) {
-  const msg = `Olá! Quero pedir: ${nome}`;
-  const href = whatsappUrl(msg);
+  const href = SITE.pedidoUrl;
 
   return (
     <article
@@ -75,7 +74,7 @@ export function CardapioCard({
           rel="noopener noreferrer"
           className={`mt-6 inline-flex min-h-[48px] w-full items-center justify-center rounded-full bg-amber-400 px-4 py-3 text-center text-base font-bold text-[#1A472A] shadow-lg ${t} hover:bg-amber-500 hover:shadow-xl`}
         >
-          Pedir via WhatsApp
+          Pedir online
         </a>
       </div>
     </article>

@@ -13,7 +13,7 @@ export default function ContatoPage() {
           Contato
         </h1>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink/70">
-          Venha nos visitar ou fale com a gente pelo WhatsApp.
+          Venha nos visitar, peça pelo site ou fale com a gente pelo WhatsApp.
         </p>
 
         <div className="mt-16 grid gap-12 lg:grid-cols-2 lg:gap-16">
@@ -49,11 +49,19 @@ export default function ContatoPage() {
                 {SITE.email}
               </a>
               <p className="mt-2 text-sm font-medium text-ink/50">
-                Pedidos rápidos: prefira o WhatsApp.
+                Pedidos: use o botão Pedir online ou o WhatsApp abaixo.
               </p>
             </section>
 
             <section className="flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+              <a
+                href={SITE.pedidoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-amber-400 px-6 text-base font-bold text-[#1A472A] shadow-lg ${t} hover:scale-105 hover:bg-amber-300 hover:shadow-2xl`}
+              >
+                Pedir online
+              </a>
               <a
                 href={whatsappUrl(
                   "Olá! Gostaria de fazer um pedido pela página de contato."

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { whatsappUrl } from "@/lib/site";
+import { SITE } from "@/lib/site";
 
 const t = "t-premium";
 
@@ -17,13 +17,11 @@ export function SectionPromo() {
             Oferta especial
           </h3>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-white">
-            Compre 2 pizzas e ganhe 1 bebida grátis. Válido em pedidos pelo
-            WhatsApp. Consulte condições.
+            Compre 2 pizzas e ganhe 1 bebida grátis. Válido em pedidos feitos
+            pelo site. Consulte condições.
           </p>
           <a
-            href={whatsappUrl(
-              "Olá! Vi a oferta de 2 pizzas + bebida grátis e quero participar."
-            )}
+            href={SITE.pedidoUrl}
             target="_blank"
             rel="noopener noreferrer"
             className={`mt-10 inline-flex min-h-[52px] items-center justify-center rounded-full bg-white px-10 text-base font-bold text-red-600 shadow-lg ${t} hover:scale-105 hover:bg-amber-400 hover:text-red-700 hover:shadow-2xl`}
