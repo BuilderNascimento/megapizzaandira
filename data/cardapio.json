@@ -1,0 +1,126 @@
+{
+  "categorias": {
+    "pizzas_salgadas": [
+      {
+        "id": 1,
+        "nome": "Calabresa com Catupiry",
+        "descricao": "Calabresa fresca e catupiry original na medida certa.",
+        "preco": 45.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80"
+      },
+      {
+        "id": 2,
+        "nome": "Frango com Catupiry",
+        "descricao": "Frango desfiado cremoso com catupiry derretendo.",
+        "preco": 44.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+      },
+      {
+        "id": 3,
+        "nome": "Costela",
+        "descricao": "Sabor marcante de costela com queijo e cebola.",
+        "preco": 52.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80"
+      },
+      {
+        "id": 4,
+        "nome": "Portuguesa",
+        "descricao": "Presunto, ovos, cebola, pimentão e azeitonas.",
+        "preco": 46.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&q=80"
+      },
+      {
+        "id": 5,
+        "nome": "Margherita",
+        "descricao": "Molho de tomate, mussarela, manjericão e azeite.",
+        "preco": 42.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=800&q=80"
+      },
+      {
+        "id": 6,
+        "nome": "Rodízio de Pizza",
+        "descricao": "Experiência completa com variedades salgadas (consulte disponibilidade).",
+        "preco": 59.9,
+        "tamanho": "Por pessoa",
+        "imagem": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80"
+      }
+    ],
+    "pizzas_doces": [
+      {
+        "id": 10,
+        "nome": "Brigadeiro",
+        "descricao": "Brigadeiro cremoso com granulado — clássico irresistível.",
+        "preco": 38.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=800&q=80"
+      },
+      {
+        "id": 11,
+        "nome": "Romeu e Julieta",
+        "descricao": "Goiabada com queijo minas em equilíbrio perfeito.",
+        "preco": 36.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80"
+      },
+      {
+        "id": 12,
+        "nome": "Banana com Canela",
+        "descricao": "Banana caramelizada com canela e leite condensado.",
+        "preco": 34.9,
+        "tamanho": "Grande",
+        "imagem": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=800&q=80"
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 20,
+        "nome": "Refrigerante 2L",
+        "descricao": "Coca-Cola, Guaraná, Fanta ou Sprite — consulte sabores.",
+        "preco": 12.9,
+        "imagem": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=800&q=80"
+      },
+      {
+        "id": 21,
+        "nome": "Refrigerante Lata",
+        "descricao": "350ml gelada.",
+        "preco": 5.9,
+        "imagem": "https://images.unsplash.com/photo-1629203851122-4396bf395667?w=800&q=80"
+      },
+      {
+        "id": 22,
+        "nome": "Água mineral",
+        "descricao": "Com ou sem gás, 500ml.",
+        "preco": 4.5,
+        "imagem": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80"
+      }
+    ],
+    "porcoes": [
+      {
+        "id": 30,
+        "nome": "Batata frita",
+        "descricao": "Porção crocante com tempero da casa.",
+        "preco": 24.9,
+        "imagem": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80"
+      },
+      {
+        "id": 31,
+        "nome": "Anéis de cebola",
+        "descricao": "Empanados e servidos com molho.",
+        "preco": 22.9,
+        "imagem": "https://images.unsplash.com/photo-1639024471283-03518883549d?w=800&q=80"
+      },
+      {
+        "id": 32,
+        "nome": "Frango à passarinho",
+        "descricao": "Porção generosa para compartilhar.",
+        "preco": 32.9,
+        "imagem": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=800&q=80"
+      }
+    ]
+  }
+}
