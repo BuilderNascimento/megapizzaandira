@@ -11,15 +11,15 @@ export function SectionHotPicks() {
     <section className="relative bg-amber-50 py-12 md:py-20">
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-5xl font-black tracking-tight text-[#1A472A] md:text-6xl">
-          Chaud Devant
+          Pizzas em destaque
         </h2>
         <div
           className="mt-4 h-1.5 w-28 rounded-full bg-gradient-to-r from-red-600 to-amber-500"
           aria-hidden
         />
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-stone-700">
-          Nossas pizzas em destaque — seleção do chef para conquistar seu
-          paladar.
+          Sabores que fazemos todo dia e que mais pedem por aqui. O chef
+          separou estes quatro para você começar sem erro.
         </p>
 
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

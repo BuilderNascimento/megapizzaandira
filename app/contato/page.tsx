@@ -19,7 +19,7 @@ export default function ContatoPage() {
         <div className="mt-16 grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="min-h-0 overflow-hidden rounded-lg border border-black/5 bg-canvas shadow-lg">
             <iframe
-              title="Localização Mega Pizza Andirá — Av. Goiás, 1294"
+              title="Localização Mega Pizza Andirá, Av. Goiás, 1294"
               src={mapEmbedSrc}
               className="h-72 w-full border-0 sm:h-96"
               loading="lazy"

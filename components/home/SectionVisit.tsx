@@ -36,7 +36,7 @@ export function SectionVisit() {
                 </span>
                 <span>
                   <strong className="text-amber-400">Local:</strong> Av. Goiás,
-                  1294 — Andirá, PR
+                  1294, Andirá, PR
                 </span>
               </li>
             </ul>

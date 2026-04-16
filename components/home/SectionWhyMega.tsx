@@ -5,7 +5,7 @@ const t = "t-premium";
 const items = [
   {
     title: "Pizza grande",
-    text: "Massas artesanais e recheios generosos — sabor de verdade em cada fatia.",
+    text: "Massas artesanais e recheios generosos: sabor de verdade em cada fatia.",
     image:
       "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
     alt: "Pizza grande com ingredientes frescos em close",
@@ -36,7 +36,7 @@ const items = [
 export function SectionWhyMega() {
   return (
     <section className="relative z-10 overflow-hidden bg-gradient-to-br from-amber-400 via-orange-400 to-orange-600 py-16 md:py-24">
-      {/* Textura leve — sem clip-path que expõe fundo branco da página */}
+      {/* Textura leve; sem clip-path que expõe fundo branco da página */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.06]"
         style={{

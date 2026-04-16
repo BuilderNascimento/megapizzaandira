@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const t = "t-premium";
 
-/** Fotos reais (Unsplash) — sem emojis */
+/** Fotos reais (Unsplash), sem emojis */
 const cards = [
   {
     title: "Qualidade",
@@ -64,7 +64,7 @@ export function SectionAvantages() {
             aria-hidden
           />
           <p className="mt-6 text-lg leading-relaxed text-stone-800 md:text-xl">
-            O que nos diferencia — além do sabor que você já conhece.
+            O que nos diferencia, além do sabor que você já conhece.
           </p>
         </header>
 

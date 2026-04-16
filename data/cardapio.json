@@ -54,7 +54,7 @@
       {
         "id": 10,
         "nome": "Brigadeiro",
-        "descricao": "Brigadeiro cremoso com granulado — clássico irresistível.",
+        "descricao": "Brigadeiro cremoso com granulado. Clássico irresistível.",
         "preco": 38.9,
         "tamanho": "Grande",
         "imagem": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=800&q=80"
@@ -80,7 +80,7 @@
       {
         "id": 20,
         "nome": "Refrigerante 2L",
-        "descricao": "Coca-Cola, Guaraná, Fanta ou Sprite — consulte sabores.",
+        "descricao": "Coca-Cola, Guaraná, Fanta ou Sprite. Consulte sabores.",
         "preco": 12.9,
         "imagem": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=800&q=80"
       },

@@ -28,7 +28,7 @@ const slides = [
     id: 3,
     image:
       "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=1920&q=85",
-    subtitle: "Da nossa forno à sua mesa — pedido fácil pelo WhatsApp",
+    subtitle: "Da nossa forno à sua mesa, com pedido fácil pelo WhatsApp",
   },
 ];
 
@@ -47,7 +47,7 @@ function HeroContent({
         Mega Pizza Andirá
       </p>
       <h1 className="mt-4 text-4xl font-black leading-[1.1] tracking-tight text-white sm:text-5xl xl:text-[3.5rem] xl:leading-[1.08]">
-        Mega Pizza Andirá — A Maior Pizza da Região
+        Mega Pizza Andirá. A Maior Pizza da Região
       </h1>
       <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/95">
         {subtitle}
@@ -65,7 +65,7 @@ function HeroContent({
         </Link>
         <a
           href={whatsappUrl(
-            "Olá! Quero fazer um pedido — vim do banner principal."
+            "Olá! Quero fazer um pedido. Vim do banner principal."
           )}
           target="_blank"
           rel="noopener noreferrer"
@@ -144,7 +144,7 @@ export function HeroCarousel() {
         </div>
       </div>
 
-      {/* Desktop: camadas — foto 100% da área + máscara vermelha em diagonal (sem faixas brancas) */}
+      {/* Desktop: camadas, foto 100% da área + máscara vermelha em diagonal (sem faixas brancas) */}
       <div
         className={clsx(
           "relative hidden w-full overflow-hidden lg:block",
@@ -168,7 +168,7 @@ export function HeroCarousel() {
           />
         </div>
 
-        {/* Camada 2: painel vermelho com clip-path — o “vazio” do clip mostra a pizza por baixo (não o fundo da página) */}
+        {/* Camada 2: painel vermelho com clip-path; o “vazio” do clip mostra a pizza por baixo (não o fundo da página) */}
         <div
           className="absolute inset-y-0 left-0 z-[1] w-[62%] bg-[#C41E3A] xl:w-[58%]"
           style={{

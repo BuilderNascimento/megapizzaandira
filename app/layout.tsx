@@ -4,7 +4,7 @@ import { Header } from "@/components/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mega Pizza Andirá — A maior pizza da região",
+  title: "Mega Pizza Andirá | A maior pizza da região",
   description:
     "Pizzaria em Andirá, PR. Pizzas italianas com massa artesanal. Peça pelo WhatsApp.",
 };

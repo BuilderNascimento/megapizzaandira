@@ -18,7 +18,7 @@ export function SectionPromo() {
           </h3>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-white">
             Compre 2 pizzas e ganhe 1 bebida grátis. Válido em pedidos pelo
-            WhatsApp — consulte condições.
+            WhatsApp. Consulte condições.
           </p>
           <a
             href={whatsappUrl(
